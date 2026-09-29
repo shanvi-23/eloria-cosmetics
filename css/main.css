@@ -1,0 +1,249 @@
+/* =====================================================
+   ELORIA - COMMON CSS
+   Used by almost every page.
+===================================================== */
+
+
+/* ------------------------------
+   BASIC RESET
+------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+
+/* ------------------------------
+   COMMON COLOURS
+------------------------------ */
+
+:root {
+
+    /* Main Eloria colour */
+    --eloria-primary: #8b4f5c;
+
+    /* Dark version */
+    --eloria-dark: #633640;
+
+    /* Light pink */
+    --eloria-light: #f8eeee;
+
+    /* Light background */
+    --eloria-background: #faf7f7;
+
+    /* Dark footer */
+    --eloria-footer: #2f2426;
+
+}
+
+
+/* ------------------------------
+   LOGO
+------------------------------ */
+
+.logo {
+
+    font-family: Georgia, serif;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: var(--eloria-primary) !important;
+
+}
+
+
+/* ------------------------------
+   NAVBAR
+------------------------------ */
+
+.navbar {
+
+    min-height: 75px;
+
+}
+
+
+.nav-link {
+
+    margin: 0 10px;
+
+    color: #333 !important;
+
+    font-weight: 500;
+
+}
+
+
+.nav-link:hover {
+
+    color: var(--eloria-primary) !important;
+
+}
+
+
+/* ------------------------------
+   CART NAVBAR BUTTON
+------------------------------ */
+
+.nav-cart {
+
+    border: 1px solid var(--eloria-primary);
+
+    color: var(--eloria-primary);
+
+}
+
+
+.nav-cart:hover {
+
+    background: var(--eloria-primary);
+
+    color: white;
+
+}
+
+
+/* ------------------------------
+   COMMON BUTTON
+------------------------------ */
+
+.eloria-btn {
+
+    background: var(--eloria-primary);
+
+    color: white;
+
+    border: none;
+
+    border-radius: 25px;
+
+    padding: 12px 28px;
+
+    transition: 0.3s;
+
+}
+
+
+.eloria-btn:hover {
+
+    background: var(--eloria-dark);
+
+    color: white;
+
+    transform: translateY(-2px);
+
+}
+
+
+/* ------------------------------
+   OUTLINE BUTTON
+------------------------------ */
+
+.eloria-outline-btn {
+
+    border: 1px solid var(--eloria-primary);
+
+    color: var(--eloria-primary);
+
+    border-radius: 25px;
+
+    padding: 12px 28px;
+
+}
+
+
+.eloria-outline-btn:hover {
+
+    background: var(--eloria-primary);
+
+    color: white;
+
+}
+
+
+/* ------------------------------
+   SECTION SMALL TITLE
+------------------------------ */
+
+.section-small-title {
+
+    color: var(--eloria-primary);
+
+    letter-spacing: 3px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+
+.site-footer {
+
+    background: var(--eloria-footer);
+
+    color: white;
+
+    padding: 50px 0;
+
+}
+
+
+.site-footer h3 {
+
+    font-family: Georgia, serif;
+
+    color: #f5d9df;
+
+}
+
+
+.site-footer a {
+
+    color: #ddd;
+
+    text-decoration: none;
+
+}
+
+
+.site-footer a:hover {
+
+    color: white;
+
+}
+
+
+/* ------------------------------
+   MOBILE
+------------------------------ */
+
+@media (max-width: 768px) {
+
+    .logo {
+
+        font-size: 27px;
+
+    }
+
+}

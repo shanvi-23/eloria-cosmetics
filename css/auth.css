@@ -1,0 +1,171 @@
+/* =====================================================
+   LOGIN / REGISTER CSS
+===================================================== */
+
+
+/* =====================================================
+   AUTH SECTION
+===================================================== */
+
+.auth-section {
+
+    min-height: 750px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 60px 20px;
+
+    background:
+        linear-gradient(
+            120deg,
+            #f8eeee,
+            #fff
+        );
+
+}
+
+
+/* =====================================================
+   AUTH CARD
+===================================================== */
+
+.auth-card {
+
+    width: 100%;
+
+    max-width: 480px;
+
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.08);
+
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.auth-small-title {
+
+    color: #8b4f5c;
+
+    letter-spacing: 3px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+.auth-card h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 40px;
+
+}
+
+
+.auth-description {
+
+    color: #777;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: 500;
+
+}
+
+
+.form-group input {
+
+    width: 100%;
+
+    padding: 12px 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    outline: none;
+
+}
+
+
+.form-group input:focus {
+
+    border-color: #8b4f5c;
+
+}
+
+
+/* =====================================================
+   MESSAGE
+===================================================== */
+
+.auth-message {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-weight: 500;
+
+}
+
+
+/* =====================================================
+   LINKS
+===================================================== */
+
+.auth-link {
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: #777;
+
+}
+
+
+.auth-link a {
+
+    color: #8b4f5c;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}

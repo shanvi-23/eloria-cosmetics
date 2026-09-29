@@ -1,0 +1,227 @@
+/* =====================================================
+   ADMIN PANEL CSS
+===================================================== */
+
+
+/* =====================================================
+   ADMIN NAVBAR
+===================================================== */
+
+.admin-navbar {
+
+    background: #2f2426;
+
+    color: white;
+
+    padding: 20px 0;
+
+}
+
+
+.admin-navbar .container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.admin-navbar h2 {
+
+    font-family: Georgia, serif;
+
+    margin: 0;
+
+}
+
+
+.admin-navbar a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+/* =====================================================
+   ADMIN SECTION
+===================================================== */
+
+.admin-section {
+
+    background: #faf7f7;
+
+    min-height: 100vh;
+
+    padding: 60px 0;
+
+}
+
+
+.admin-heading {
+
+    margin-bottom: 40px;
+
+}
+
+
+.admin-heading p {
+
+    color: #8b4f5c;
+
+    letter-spacing: 3px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+.admin-heading h1 {
+
+    font-family: Georgia, serif;
+
+}
+
+
+/* =====================================================
+   ADMIN CARD
+===================================================== */
+
+.admin-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.05);
+
+}
+
+
+.admin-card h3 {
+
+    font-family: Georgia, serif;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.admin-card label {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: 500;
+
+}
+
+
+.admin-card input,
+.admin-card select,
+.admin-card textarea {
+
+    width: 100%;
+
+    padding: 11px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 7px;
+
+}
+
+
+.admin-card textarea {
+
+    height: 100px;
+
+    resize: vertical;
+
+}
+
+
+/* =====================================================
+   ADMIN TABLE
+===================================================== */
+
+.admin-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+.admin-table th,
+.admin-table td {
+
+    padding: 12px;
+
+    border-bottom: 1px solid #eee;
+
+    text-align: left;
+
+}
+
+
+.admin-table th {
+
+    background: #f8eeee;
+
+}
+
+
+/* =====================================================
+   DELETE BUTTON
+===================================================== */
+
+.delete-product-btn {
+
+    background: #f8d7da;
+
+    color: #842029;
+
+    border: none;
+
+    padding: 7px 12px;
+
+    border-radius: 5px;
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .admin-navbar .container {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        align-items: flex-start;
+
+    }
+
+}

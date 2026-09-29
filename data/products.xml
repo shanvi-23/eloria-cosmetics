@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- =====================================================
+     ELORIA PRODUCT DATA
+
+     To ADD a product:
+     Copy one <product> block.
+
+     To CHANGE a product:
+     Change its name, price, category, etc.
+
+     You do NOT need to edit JavaScript.
+===================================================== -->
+
+
+<products>
+
+
+    <!-- ================= PRODUCT 1 ================= -->
+
+    <product>
+
+        <id>1</id>
+
+        <name>
+            Velvet Matte Lipstick
+        </name>
+
+        <category>
+            Makeup
+        </category>
+
+        <price>
+            599
+        </price>
+
+        <description>
+            A smooth matte lipstick with comfortable
+            long-lasting colour.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 2 ================= -->
+
+    <product>
+
+        <id>2</id>
+
+        <name>
+            Natural Glow Foundation
+        </name>
+
+        <category>
+            Makeup
+        </category>
+
+        <price>
+            899
+        </price>
+
+        <description>
+            Lightweight foundation that provides
+            a natural glowing finish.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 3 ================= -->
+
+    <product>
+
+        <id>3</id>
+
+        <name>
+            Soft Rose Blush
+        </name>
+
+        <category>
+            Makeup
+        </category>
+
+        <price>
+            499
+        </price>
+
+        <description>
+            Buildable blush for a soft and natural-looking
+            rosy finish.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 4 ================= -->
+
+    <product>
+
+        <id>4</id>
+
+        <name>
+            Hydrating Face Serum
+        </name>
+
+        <category>
+            Skincare
+        </category>
+
+        <price>
+            799
+        </price>
+
+        <description>
+            A lightweight hydrating serum for soft
+            and moisturized skin.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 5 ================= -->
+
+    <product>
+
+        <id>5</id>
+
+        <name>
+            Gentle Face Cleanser
+        </name>
+
+        <category>
+            Skincare
+        </category>
+
+        <price>
+            449
+        </price>
+
+        <description>
+            A gentle cleanser designed for everyday
+            facial cleansing.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 6 ================= -->
+
+    <product>
+
+        <id>6</id>
+
+        <name>
+            Daily Moisturizer
+        </name>
+
+        <category>
+            Skincare
+        </category>
+
+        <price>
+            649
+        </price>
+
+        <description>
+            Lightweight daily moisturizer that helps
+            keep skin hydrated.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 7 ================= -->
+
+    <product>
+
+        <id>7</id>
+
+        <name>
+            Hydrating Lip Gloss
+        </name>
+
+        <category>
+            Makeup
+        </category>
+
+        <price>
+            399
+        </price>
+
+        <description>
+            Glossy lip colour with a comfortable
+            hydrating feel.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1619451334792-150fd785ee74?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+
+    <!-- ================= PRODUCT 8 ================= -->
+
+    <product>
+
+        <id>8</id>
+
+        <name>
+            Clay Face Mask
+        </name>
+
+        <category>
+            Skincare
+        </category>
+
+        <price>
+            549
+        </price>
+
+        <description>
+            A refreshing clay mask for a clean
+            and fresh skin feel.
+        </description>
+
+        <image>
+            https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&amp;fit=crop&amp;w=700&amp;q=80
+        </image>
+
+    </product>
+
+
+</products>

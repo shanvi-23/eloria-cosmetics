@@ -1,0 +1,357 @@
+/* =====================================================
+   CART AND ORDERS CSS
+===================================================== */
+
+
+/* =====================================================
+   CART SECTION
+===================================================== */
+
+.cart-section,
+.orders-section {
+
+    padding: 70px 0;
+
+    min-height: 650px;
+
+    background: #faf7f7;
+
+}
+
+
+/* =====================================================
+   PAGE TITLE
+===================================================== */
+
+.cart-title {
+
+    margin-bottom: 50px;
+
+}
+
+
+.cart-title p {
+
+    color: #8b4f5c;
+
+    letter-spacing: 3px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+.cart-title h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 45px;
+
+}
+
+
+/* =====================================================
+   CART ITEM
+===================================================== */
+
+.cart-item {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+.cart-item-image {
+
+    width: 100px;
+
+    height: 100px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+.cart-item-info {
+
+    flex: 1;
+
+}
+
+
+.cart-item-info h3 {
+
+    font-family: Georgia, serif;
+
+    font-size: 20px;
+
+}
+
+
+.cart-item-price {
+
+    font-weight: bold;
+
+}
+
+
+/* =====================================================
+   QUANTITY
+===================================================== */
+
+.quantity-controls {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+.quantity-button {
+
+    width: 32px;
+
+    height: 32px;
+
+    border: 1px solid #ccc;
+
+    background: white;
+
+    border-radius: 5px;
+
+}
+
+
+.quantity-button:hover {
+
+    background: #f8eeee;
+
+}
+
+
+/* =====================================================
+   REMOVE BUTTON
+===================================================== */
+
+.remove-button {
+
+    border: none;
+
+    background: transparent;
+
+    color: #a33;
+
+}
+
+
+.remove-button:hover {
+
+    color: red;
+
+}
+
+
+/* =====================================================
+   ORDER SUMMARY
+===================================================== */
+
+.order-summary {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    position: sticky;
+
+    top: 100px;
+
+}
+
+
+.order-summary h3 {
+
+    font-family: Georgia, serif;
+
+    margin-bottom: 25px;
+
+}
+
+
+.summary-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+
+}
+
+
+.total-row {
+
+    font-size: 20px;
+
+}
+
+
+/* =====================================================
+   EMPTY CART
+===================================================== */
+
+.empty-cart {
+
+    background: white;
+
+    padding: 60px 30px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+}
+
+
+.empty-cart i {
+
+    font-size: 50px;
+
+    color: #8b4f5c;
+
+}
+
+
+.empty-cart h3 {
+
+    font-family: Georgia, serif;
+
+    margin: 20px 0 10px;
+
+}
+
+
+/* =====================================================
+   ORDER CARD
+===================================================== */
+
+.order-card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.order-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+.order-id {
+
+    font-weight: bold;
+
+    color: #8b4f5c;
+
+}
+
+
+.order-status {
+
+    background: #e8f5e9;
+
+    color: #287b2f;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+}
+
+
+.order-product {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+
+.order-product img {
+
+    width: 60px;
+
+    height: 60px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .cart-item {
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .order-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+    }
+
+}

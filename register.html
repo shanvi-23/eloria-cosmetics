@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | Eloria</title>
+
+
+    <!-- Bootstrap -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<div id="navbar"></div>
+
+
+
+<!-- =====================================================
+     REGISTER
+===================================================== -->
+
+<section class="auth-section">
+
+    <div class="auth-card">
+
+
+        <p class="auth-small-title">
+            JOIN ELORIA
+        </p>
+
+
+        <h1>
+            Create Account
+        </h1>
+
+
+        <p class="auth-description">
+            Create an account to manage your orders.
+        </p>
+
+
+
+        <!-- Register form -->
+
+        <form id="registerForm">
+
+
+            <!-- Name -->
+
+            <div class="form-group">
+
+                <label for="registerName">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Enter your full name"
+                    required>
+
+            </div>
+
+
+
+            <!-- Email -->
+
+            <div class="form-group">
+
+                <label for="registerEmail">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Enter your email"
+                    required>
+
+            </div>
+
+
+
+            <!-- Password -->
+
+            <div class="form-group">
+
+                <label for="registerPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Minimum 6 characters"
+                    minlength="6"
+                    required>
+
+            </div>
+
+
+
+            <!-- Confirm password -->
+
+            <div class="form-group">
+
+                <label for="confirmPassword">
+                    Confirm Password
+                </label>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Enter password again"
+                    required>
+
+            </div>
+
+
+
+            <!-- Register button -->
+
+            <button
+                type="submit"
+                class="btn eloria-btn w-100">
+
+                Create Account
+
+            </button>
+
+        </form>
+
+
+
+        <!-- Message -->
+
+        <p
+            id="registerMessage"
+            class="auth-message">
+
+        </p>
+
+
+
+        <!-- Login link -->
+
+        <p class="auth-link">
+
+            Already have an account?
+
+            <a href="login.html">
+                Login
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- Footer -->
+
+<div id="footer"></div>
+
+
+
+<!-- JavaScript -->
+
+<script src="js/common.js"></script>
+
+<script src="js/auth.js"></script>
+
+
+</body>
+
+</html>
